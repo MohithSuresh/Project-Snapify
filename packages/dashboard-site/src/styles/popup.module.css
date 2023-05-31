@@ -1,0 +1,93 @@
+.popup{
+    height:fit-content;
+    width:400px;
+    background-color:#061121;
+    border : 5px #1199FA solid;
+    border: double 5px transparent;
+    background-image: linear-gradient(black, black), 
+                        linear-gradient(rgb(138, 66, 173) 0%, rgb(103, 98, 235) 100%);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    border-radius: 15px;
+    color:white;
+    font-family: 'Poppins';
+    /* z-index:100; */
+}
+.buttonn{
+    margin-top:25px;
+    margin-bottom:25px;
+    background-color:#061121;
+    border:4px #1199FA solid;
+    border: double 5px transparent;
+    background-image: linear-gradient(black, black), 
+                        linear-gradient(rgb(138, 66, 173) 0%, rgb(103, 98, 235) 100%);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    border-radius: 99px;
+    font-family: 'Poppins';
+    font-size: 1rem;
+    text-decoration: none;
+    color:white;
+    width:100px
+}
+.heading{
+    width: fit-content;
+    margin: 5px auto 0px;
+}
+.inputdiv{
+    width:fit-content;
+    margin:10px auto 0px;
+}
+.inputbox{
+    width:350px;
+    height:50px;
+    font-family: 'Poppins';
+    outline: none;
+    background-color: #061121;
+    border:1px #1199FA solid;
+    border: double 5px transparent;
+    background-image: linear-gradient(black, black), 
+                        linear-gradient(rgb(138, 66, 173) 0%, rgb(103, 98, 235) 100%);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    border-radius: 15px;
+    color:white;
+    padding-left: 10px;
+}
+.concernbox{
+    width:350px;
+    height:100px;
+    font-family: 'Poppins';
+    outline: none;
+    background-color: #061121;
+    border:1px #1199FA solid;
+    border: double 5px transparent;
+    background-image: linear-gradient(black, black), 
+                        linear-gradient(rgb(138, 66, 173) 0%, rgb(103, 98, 235) 100%);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    border-radius: 15px;
+    color:white;
+    padding-left: 10px;
+    resize: vertical;
+    margin-bottom:15px;
+}
+.submit{
+    width:75px;
+    margin:0px auto 0px;
+    text-decoration: none;
+    font-family: 'Poppins';
+    color:white;
+    /* border: #1199FA 1px solid; */
+    border:4px #1199FA solid;
+    border: double 5px transparent;
+    background-image: linear-gradient(black, black), 
+                        linear-gradient(rgb(138, 66, 173) 0%, rgb(103, 98, 235) 100%);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    border-radius: 99px;
+}
+.submitdiv{
+    width: fit-content;
+    margin: 0px auto 25px;
+}

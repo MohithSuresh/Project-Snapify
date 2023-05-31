@@ -1,0 +1,26 @@
+[
+  {
+    "key": 1,
+    "title": "Bitcoin",
+    "description": "Bitcoin is a protocol which implements a highly available, public, and decentralized ledger. In order to update the ledger, a user must prove they control an entry in the ledger",
+    "link": "http://localhost:3000/dapps/Bitcoin",
+    "price": "$23,076.45",
+    "install_link": "https://crypto.com/price/bitcoin"
+  },
+  {
+    "key": 2,
+    "title": "Snapatar Game",
+    "description": "This is a demonstration game that implements the use of snap-atar in web3 games.",
+    "link": "http://localhost:8000/",
+    "price": "",
+    "install_link": "http://localhost:8000/"
+  },
+  {
+    "key": 3,
+    "title": "ArtShare",
+    "description": "This is a dummy content sharing application which utilizes Snapatar for fetching and updating user credentials after successful authentication through the Metamask Wallet.",
+    "link": "http://localhost:5000/",
+    "price": "",
+    "install_link": "http://localhost:5000/"
+  }
+]

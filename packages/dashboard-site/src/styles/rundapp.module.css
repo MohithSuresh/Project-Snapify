@@ -1,0 +1,45 @@
+.heading{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 20px;
+}
+.inputbox{
+    width:350px;
+    height:50px;
+    font-family: 'Poppins';
+    outline: none;
+    background-color: #061121;
+    border:1px #1199FA solid;
+    border: double 5px transparent;
+    background-image: linear-gradient(black, black), 
+                        linear-gradient(rgb(138, 66, 173) 0%, rgb(103, 98, 235) 100%);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    border-radius: 15px;
+    color:white;
+    padding-left: 10px;
+    margin: 15px;
+}
+.buttonn{
+    margin-top:25px;
+    margin-bottom:25px;
+    background-color:#061121;
+    border:4px #1199FA solid;
+    border: double 5px transparent;
+    background-image: linear-gradient(black, black), 
+                        linear-gradient(rgb(138, 66, 173) 0%, rgb(103, 98, 235) 100%);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    border-radius: 99px;
+    font-family: 'Poppins';
+    font-size: 1rem;
+    text-decoration: none;
+    color:white;
+    width:100px;
+    cursor: pointer;
+}
+.sendbox{
+    display: flex;
+    justify-content: space-around;
+    margin:0 10% 0;
+}

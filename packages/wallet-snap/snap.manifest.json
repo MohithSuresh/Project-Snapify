@@ -1,0 +1,48 @@
+{
+  "version": "0.1.0",
+  "description": "An example Snap written in TypeScript.",
+  "proposedName": "Wallet Snap",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MetaMask/template-snap-monorepo.git"
+  },
+  "source": {
+    "shasum": "A0x8eeigV0cMCLWUCckKfZ6ht1TVY8o5KjpFCgFpbQI=",
+    "location": {
+      "npm": {
+        "filePath": "dist/bundle.js",
+        "iconPath": "images/icon.svg",
+        "packageName": "wallet-snap",
+        "registry": "https://registry.npmjs.org/"
+      }
+    }
+  },
+  "initialPermissions": {
+    "snap_confirm": {},
+    "endowment:network-access": {},
+    "snap_getBip32Entropy": [
+      {
+        "path": [
+          "m",
+          "84'",
+          "0'"
+        ],
+        "curve": "secp256k1"
+      }
+    ],
+    "snap_getBip32PublicKey": [
+      {
+        "path": [
+          "m",
+          "84'",
+          "0'",
+          "0'",
+          "0",
+          "0"
+        ],
+        "curve": "secp256k1"
+      }
+    ]
+  },
+  "manifestVersion": "0.1"
+}

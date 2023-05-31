@@ -1,0 +1,11 @@
+diff --git a/src/index.js b/src/index.js
+index 4159064bded1ccab1d55785a71b781f925e90b28..42ac0b72bfe3661f82d45eebfc67e62982e4cbab 100644
+--- a/src/index.js
++++ b/src/index.js
+@@ -1,4 +1,6 @@
+ 'use strict';
++globalThis.Buffer = require('buffer').Buffer;
++exports.Buffer = globalThis.Buffer;
+ Object.defineProperty(exports, '__esModule', { value: true });
+ exports.initEccLib =
+   exports.Transaction =
